@@ -1,4 +1,4 @@
-import '../atividade.dart';
+import 'atividade.dart';
 import 'Cachorro.dart';
 import 'Gato.dart';
 
@@ -36,6 +36,8 @@ void main(List<String> args) {
    * a subclasse pode chamar o construtor da calsse pai usando a palavra super
    */
 
+void main() {
   Aluno aluno = Aluno("Papai Cris", "Flutter");
   print("O aluno ${aluno.nome} está cursando ${aluno.curso}");
+}
 }
