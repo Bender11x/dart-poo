@@ -1,7 +1,6 @@
 import 'Email.dart';
 import 'FuncionarioPj.dart';
-import 'ImpostoProduto.dart';
-import 'ImpostoRenda.dart';
+
 import 'SMS.dart';
 import 'funcionarioCLT.dart';
 
@@ -19,7 +18,7 @@ void main(List<String> args){
 
   void main() {
   FuncionarioCLT clt = FuncionarioCLT('ronaldo', 5000, 500, 150);
-  Funcionario pj = FuncionarioPJ('douglas', 10000);
+  FuncionarioPj pj = FuncionarioPj ('douglas', 10000);
 
   clt.exibirDados();
   pj.exibirDados();

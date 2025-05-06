@@ -1,4 +1,3 @@
-import 'Pessoa.dart';
 
 class Pessoa {
   String nome;
