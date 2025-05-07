@@ -9,11 +9,11 @@ class UsuarioManager {
   }
 } */
 
-
-class UsuarioManager{
+//Refatoração 
+class UsuarioRecovery{
   
   void salvarUsuario(String nome){
-    print('Usuario $nome salvo no banco de dados.');
+    print("Usuario $nome salvo no banco de dados.");
   }
 }
 

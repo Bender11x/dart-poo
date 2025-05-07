@@ -1,29 +1,18 @@
 import 'Email.dart';
-import 'FuncionarioPj.dart';
-
 import 'SMS.dart';
 import 'funcionarioCLT.dart';
 
-void main(List<String> args){
-
-  //exercicio Notificação
+void main(List<String> args) {
+  // Exercício Notificação
 
   Email mail = Email();
-  mail.enviar("enviado por e-mail");
+  mail.enviar("Enviado por e-mail");
 
   SMS torpedo = SMS();
-  torpedo.enviar("enviando mensagem por SMS");
+  torpedo.enviar("Enviando mensagem por SMS");
 
-  //exercicio Imposto
+  // Exercício Imposto
 
-  void main() {
-  FuncionarioCLT clt = FuncionarioCLT('ronaldo', 5000, 500, 150);
-  FuncionarioPj pj = FuncionarioPj ('douglas', 10000);
-
+  FuncionarioCLT clt = FuncionarioCLT('Ronaldo', 5000, 500, 150);
   clt.exibirDados();
-  pj.exibirDados();
-}
-
-
-
 }
